@@ -12,7 +12,7 @@
         <div class="w-1/4 text-xl">
           <ul>
             <li>
-              <nuxt-link to="/all-houses">Short Lets</nuxt-link>
+              <nuxt-link to="/all-houses">More Info</nuxt-link>
             </li>
             <li>
               <nuxt-link to="/about-myonlinecoursetaker">About myonlinecoursetaker</nuxt-link>

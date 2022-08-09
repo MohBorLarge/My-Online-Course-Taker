@@ -75,8 +75,8 @@
         </p>
       </div>
       <div class="container w-full px-8 lg:my-0  lg:w-7/12 flex justify-between">
-        <input type="text" class="border border-gray-200"/>
-        <input type="file" />
+        <input type="text" class="border border-gray-200 mr-8"/>
+        <input type="file"  class="mr-8"/>
         <p class="w-1/2 bg-yellow-400 rounded-full py-4 px-4 text-center">
           Submit
         </p>
