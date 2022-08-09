@@ -74,8 +74,42 @@
           <span class="font-bold">Subject</span>
         </p>
       </div>
-      <div class="container w-full px-8 lg:my-0 lg:mx-auto lg:w-7/12 flex">
-        <input type="text">
+      <div class="container w-full px-8 lg:my-0  lg:w-7/12 flex justify-between">
+        <input type="text" class="border border-gray-200 mr-8"/>
+        <input type="file"  class="mr-8"/>
+        <p class="w-1/2 bg-yellow-400 rounded-full py-4 px-4 text-center">
+          Submit
+        </p>
+      </div>
+      <p class="text-center mt-4 font-bold text-2xl">
+        Or Contact Us Directly on:
+      </p>
+      <div
+        class="container w-full px-8 lg:my-0 lg:mx-auto lg:w-7/12 flex justify-between pt-4"
+      >
+        <a href="">
+          <img src="@/assets/icons/facebook.png" alt="" srcset="" />
+        </a>
+        <a href="">
+          <img src="@/assets/icons/instagram.png" alt="" srcset="" />
+        </a>
+        <a href="">
+          <img src="@/assets/icons/twitter.png" alt="" srcset="" />
+        </a>
+        <a href="">
+          <img src="@/assets/icons/whatsapp.png" alt="" srcset="" />
+        </a>
+        <a href="">
+          <img
+            src="@/assets/icons/telegram.png"
+            alt=""
+            srcset=""
+            style="width: 36px; height: 36px; margin-top: 4px"
+          />
+        </a>
+        <a href="">
+          <img src="@/assets/icons/gmail.png" alt="" srcset="" />
+        </a>
       </div>
     </div>
     <div class="container w-full px-8 lg:my-0 lg:mx-auto lg:w-7/12">
@@ -180,7 +214,7 @@ export default {
   name: 'HomePage',
   components: {
     NavBar,
-    FooterSection
+    FooterSection,
   },
 }
 </script>
